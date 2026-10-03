@@ -1,0 +1,47 @@
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+body.dark-mode {
+   background-color: #121212 !important;
+   color: #f1f1f1 !important;
+}
+
+body.dark-mode .card {
+   background-color: #1e1e1e !important;
+   color: #ffffff !important;
+   border-color: #2d2d2d !important;
+}
+
+body.dark-mode .card .text-muted,
+body.dark-mode text-muted {
+   color: #b0b0b0 !important;
+}
+
+body.dark-mode .table {
+   color: #ffffff !important;
+   background-color: #1e1e1e !important;
+   border-color: #333333 !important;
+}
+
+body.dark-mode .table th,
+body.dark-mode .table td {
+   background-color: #1e1e1e !important;
+   color: #ffffff !important;
+   border-color: #333333 !important;
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+   background-color: #2a2a2a !important;
+   color: #ffffff !important;
+   border-color: #444444 !important;
+}
+
+body.dark-mode .form-control::placeholder {
+   color: #888888 !important;
+}
