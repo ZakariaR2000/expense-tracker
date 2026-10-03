@@ -70,4 +70,4 @@ You can watch a full walkthrough video of the application:
 
 ## What was the hardest part?
 
-The most challenging part was encountering a `Connection terminated unexpectedly` error when connecting Express to PostgreSQL[cite: 1, 5]. This happened because the Express server port (`3000`) was mistakenly assigned instead of the default PostgreSQL port (`5432`) in the `Pool` configuration[cite: 1, 5]. I resolved it by properly setting `DB_PORT` in the `.env` file and ensuring fallback defaults[cite: 1, 5].
+The most challenging part was encountering a `Connection terminated unexpectedly` error when connecting Express to PostgreSQL. This happened because the Express server port (`3000`) was mistakenly assigned instead of the default PostgreSQL port (`5432`) in the `Pool` configuration. I resolved it by properly setting `DB_PORT` in the `.env` file and ensuring fallback defaults.
